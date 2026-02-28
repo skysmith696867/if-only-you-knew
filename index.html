@@ -174,12 +174,12 @@
       <div class="panel">
         <div class="tabs">
           <button class="tab active" data-tab="rituals">01 // Rituals</button>
-          <button class="tab" data-tab="lines">02 // Lines</button>
+          <button class="tab" data-tab="lines">02 // confessions that lurk</button>
           <button class="tab" data-tab="future">03 // What We Coulda Been</button>
         </div>
         <div class="hint">
-          Kal-coded rule: no monologues.<br/>
-          Everything arrives as a mechanism.
+          rule: no monologues.<br/>
+          be a detective. 
         </div>
       </div>
 
@@ -220,12 +220,12 @@
       "RITUAL D // writing about each other like we are carving legacies into the world",
       "RITUAL E // wholesome freaky hours past three am."
     ],
-    lines: [
-      "LINE // “my library of Alexandria and your forbidden fruit.”",
-      "LINE // “sky flavored skittles when. fuck tasting the rainbow. I wanna taste YOU..”",
-      "LINE // “too good to be true.”",
-      "LINE // fighting godzilla with a toothpick",
-      "LINE // taking down the moon and stars to get you back"
+    confessions that lurk: [
+      "Confession // “my library of Alexandria and your forbidden fruit.”",
+      "Confession // “sky flavored skittles when. fuck tasting the rainbow. I wanna taste YOU..”",
+      "Confession// “too good to be true.”",
+      "Confession // fighting godzilla with a toothpick",
+      "Confession // taking down the moon and stars to get you back"
     ],
     future: [
       "alternate timeline // Take me to that big hill where i tel u the secrets of the stars.",
@@ -262,7 +262,7 @@
 
   function decryptNext(){
     if(pool.length === 0){
-      screenBody.textContent += "\n>> END OF FILE.\n";
+      screenBody.textContent += "\n>> END OF ENDLESS FILE.\n";
       return;
     }
     const i = Math.floor(Math.random() * pool.length);
